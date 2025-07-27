@@ -4,7 +4,7 @@ gsap.from(".home__hero", {
     duration: 1,
     ease: "power2.out",
     scrollTrigger: {
-      trigger: ".home__hero",
+      trigger: ".section.is--home__hero",
       start: "top 80%", // when top of button hits 80% of viewport height
       toggleActions: "play none none none"
     }
